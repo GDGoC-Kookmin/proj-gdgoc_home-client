@@ -10,8 +10,16 @@ body:
     id: refactor-description
     attributes:
       label: ♻️ Issue
-      description: 리팩토링의 이름을 작성해주세요.
+      description: 어떠한 기능을 리팩토링 할 건지 작성해 주세요.
       placeholder: 설명을 작성해주세요.
+    validations:
+      required: true
+  - type: input
+    id: input_parent
+    attributes:
+      label: 🔢 리팩토링 이슈를 기입해주세요.
+      description: 리팩토링 이슈를 작성해주세요.
+      placeholder: <#이슈번호>
     validations:
       required: true
   - type: textarea
@@ -25,14 +33,6 @@ body:
       render: ""
     validations:
       required: false
-  - type: input
-    id: input_parent
-    attributes:
-      label: 🔢 리팩토링 이슈를 기입해주세요.
-      description: 리팩토링 이슈를 작성해주세요.
-      placeholder: <#이슈번호>
-    validations:
-      required: true
   - type: textarea
     id: refactor-list
     attributes:
