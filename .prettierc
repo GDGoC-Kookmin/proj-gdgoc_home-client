@@ -1,0 +1,26 @@
+
+{
+  "printWidth": 100, // 한 줄에 보이는 글자수
+  "tabWidth": 2, // 탭(Tab)의 길이
+  "singleQuote": true, //작은 따옴표만 쓴다
+  "trailingComma": "es5", //객체 등에서 맨 마지막에 콤마 찍는다
+  "bracketSpacing": true, // 중괄호 안에 있는 내용과 중괄호 사이 공백
+  "semi": true, //문장 끝에 세미콜론
+  "useTabs": false, //스페이스 바 이용해 들여쓰기
+  "arrowParens": "avoid", //화살표 함수 매개변수 1개이면 소괄호 생략
+  "endOfLine": "lf", //다른 운영체제를 사용해도 개행문자 형식 통일
+  "bracketSameLine": false //여는 중괄호를 다음 줄에 둔다.
+}
+
+{
+    "printWidth": 100, 
+    "tabWidth": 2, 
+    "singleQuote": true, 
+    "trailingComma": "es5", 
+    "bracketSpacing": true, 
+    "semi": true, 
+    "useTabs": false, 
+    "arrowParens": "avoid", 
+    "endOfLine": "lf",
+    "bracketSameLine": false 
+  }
