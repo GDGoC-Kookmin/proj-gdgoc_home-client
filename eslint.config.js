@@ -16,7 +16,7 @@ export default tseslint.config(
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-    },
+    }, 
     rules: {
       'react-refresh/only-export-components': 'warn',
       'no-duplicate-imports': 'error', //Áßº¹ Import ¾ÈµÅ¿ë
